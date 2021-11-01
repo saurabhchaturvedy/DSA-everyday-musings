@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MinimumPlatforms {
 
 
@@ -9,7 +11,7 @@ public class MinimumPlatforms {
 
             return 0;
         }
-
+        Arrays.sort(dep);
         int n=arr.length;
         int platformsNeeded=0;
         int minimumPlatforms=0;
